@@ -156,7 +156,7 @@
                                     <li><a class="dropdown-item" href="candidate-shortlist.html">Shortlist Job</a></li>
                                     <li><a class="dropdown-item" href="candidate-message.html">Message</a></li>
                                     <li><a class="dropdown-item" href="candidate-passwordchange.html">Change Password</a></li>
-                             <li>
+                                <li>
     <a class="dropdown-item" href="{{ route('logout') }}"
        onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
        Log Out

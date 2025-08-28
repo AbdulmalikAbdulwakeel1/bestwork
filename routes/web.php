@@ -19,7 +19,7 @@ Route::post('/forgot-password', [ForgotPasswordController::class, 'sendResetLink
 
 Route::middleware(['auth', 'ensureusertype:candidate'])->group(function () {
     Route::get('/candidate/dashboard', function () {
-        return view('candidate.dashboard');
+        return view('employee.dashboard');
     })->name('candidate.dashboard');
 });
 
