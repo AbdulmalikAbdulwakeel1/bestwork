@@ -8,18 +8,12 @@ use Symfony\Component\HttpFoundation\Response;
 
 class EnsureUserType
 {
-    /**
-     * Handle an incoming request.
-     *
-     * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
-     */
-public function handle($request, \Closure $next, $type)
-{
-    if (auth()->check() && auth()->user()->type === $type) {
-        return $next($request);
+    public function handle($request, Closure $next, $type)
+    {
+        if (auth()->check() && auth()->user()->type === $type) {
+            return $next($request);
+        }
+        
+        abort(403, 'Unauthorized access.');
     }
-    abort(403, 'Unauthorized');
-}
-
-
 }
