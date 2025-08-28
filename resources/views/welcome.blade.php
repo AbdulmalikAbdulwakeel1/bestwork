@@ -19,47 +19,47 @@
         <ul class="list-unstyled">
             <li class="navigation__menu--item has-child has-arrow">
                 <a href="#" class="navigation__menu--item__link">Home</a>
-                
+
             </li>
 
             <li class="navigation__menu--item has-child has-arrow">
                 <a href="#" class="navigation__menu--item__link">About</a>
-                
+
             </li>
 
             <li class="navigation__menu--item has-child has-arrow">
                 <a href="#" class="navigation__menu--item__link">Blogs</a>
-               
+
             </li>
 
             <li class="navigation__menu--item has-child has-arrow">
                 <a href="#" class="navigation__menu--item__link">Terms & Condition</a>
-                
+
             </li>
 
             <li class="navigation__menu--item has-child has-arrow">
                 <a href="#" class="navigation__menu--item__link">Privacy & Policy</a>
-                
+
             </li>
 
             <li class="navigation__menu--item has-child has-arrow">
                 <a href="#" class="navigation__menu--item__link">Faq</a>
-                
+
             </li>
 
             <li class="navigation__menu--item has-child has-arrow">
                 <a href="#" class="navigation__menu--item__link">Contact</a>
-                
+
             </li>
         </ul>
     </nav>
 </div>
 
                                 <div class="header__right__btn d-flex gap-3">
-                                    <a href="#" class="small__btn he-3 d-none d-sm-flex no__fill__btn border-6 font-xs" aria-label="Login Button" data-bs-toggle="modal" data-bs-target="#loginModal"> 
-                                        
+                                    <a href="#" class="small__btn he-3 d-none d-sm-flex no__fill__btn border-6 font-xs" aria-label="Login Button" data-bs-toggle="modal" data-bs-target="#loginModal">
+
                                         Sign In</a>
-                                    
+
                                     <button class="d-md-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas"><i class="fa-sharp fa-regular fa-bars"></i></button>
                                 </div>
                             </div>
@@ -155,7 +155,7 @@
                 <div class="row">
     <div class="cat__slider overflow-hidden swiper-data cat__style__two  wow animated fadeInUp" data-swiper='
     {
-    "slidesPerView": 4, 
+    "slidesPerView": 4,
     "spaceBetween": 30,
     "loop": true,
     "speed": 1000,
@@ -323,7 +323,7 @@
                             <div class="rts__applicants  wow animated fadeInLeft">
                                 <span class="font-20 mb-3 d-block fw-medium">Applicants</span>
                                 <div class="applicant__list">
-                                    
+
                                     <div class="single__list">
                                         <img src="{{ asset('assets/img/author/1.svg') }}" alt="">
                                     </div>
@@ -348,7 +348,7 @@
                                 <p class="rts__section__desc">From entry-level positions to executive roles browse through.   </p>
                             </div>
                             <div class="single__feature__list">
-                                
+
                                 <div class="single__item d-flex align-items-center flex-wrap flex-sm-nowrap gap-4">
                                     <div class="">
                                         <div class="icon">
@@ -405,7 +405,7 @@
                     </div>
                 </div>
                 <div class="row px-3 d-flex flex-column g-30">
-                    
+
                     <!-- single job item -->
 <div class="rts__job__card__big d-flex flex-wrap flex-md-nowrap gap-4 align-items-center">
     <div class="company__icon">
@@ -432,7 +432,7 @@
         <div class="d-flex gap-3 gap-lg-5 flex-wrap align-items-center">
             <div class="job__tags d-flex flex-wrap gap-3">
                 <a href="#">Marketing</a>
-                <a href="#">Digital</a> 
+                <a href="#">Digital</a>
             </div>
             <div class="d-flex gap-3 flex-wrap">
                 <div class="job__sallery d-flex gap-2 align-items-center">
@@ -442,8 +442,8 @@
             </div>
         </div>
     </div>
-</div> 
-<!-- single job item end --> 
+</div>
+<!-- single job item end -->
 
 <!-- BPO / Call Center -->
 <div class="rts__job__card__big d-flex flex-wrap flex-md-nowrap gap-4 align-items-center">
@@ -471,7 +471,7 @@
         <div class="d-flex gap-3 gap-lg-5 flex-wrap align-items-center">
             <div class="job__tags d-flex flex-wrap gap-3">
                 <a href="#">BPO</a>
-                <a href="#">Customer Service</a> 
+                <a href="#">Customer Service</a>
             </div>
             <div class="d-flex gap-3 flex-wrap">
                 <div class="job__sallery d-flex gap-2 align-items-center">
@@ -481,7 +481,7 @@
             </div>
         </div>
     </div>
-</div> 
+</div>
 <!-- single job item end -->
 
 <!-- Nursing / Healthcare -->
@@ -511,7 +511,7 @@
         <div class="d-flex gap-3 gap-lg-5 flex-wrap align-items-center">
             <div class="job__tags d-flex flex-wrap gap-3">
                 <a href="#">Healthcare</a>
-                <a href="#">Nursing</a> 
+                <a href="#">Nursing</a>
             </div>
             <div class="d-flex gap-3 flex-wrap">
                 <div class="job__sallery d-flex gap-2 align-items-center">
@@ -521,7 +521,7 @@
             </div>
         </div>
     </div>
-</div> 
+</div>
 <!-- single job item end -->
 
 <!-- Hospitality -->
@@ -550,7 +550,7 @@
         <div class="d-flex gap-3 gap-lg-5 flex-wrap align-items-center">
             <div class="job__tags d-flex flex-wrap gap-3">
                 <a href="#">Hospitality</a>
-                <a href="#">Customer Service</a> 
+                <a href="#">Customer Service</a>
             </div>
             <div class="d-flex gap-3 flex-wrap">
                 <div class="job__sallery d-flex gap-2 align-items-center">
@@ -560,7 +560,7 @@
             </div>
         </div>
     </div>
-</div> 
+</div>
 <!-- single job item end -->
 
 <!-- Construction & Skilled Work -->
@@ -589,7 +589,7 @@
         <div class="d-flex gap-3 gap-lg-5 flex-wrap align-items-center">
             <div class="job__tags d-flex flex-wrap gap-3">
                 <a href="#">Construction</a>
-                <a href="#">Labor</a> 
+                <a href="#">Labor</a>
             </div>
             <div class="d-flex gap-3 flex-wrap">
                 <div class="job__sallery d-flex gap-2 align-items-center">
@@ -599,7 +599,7 @@
             </div>
         </div>
     </div>
-</div> 
+</div>
 <!-- single job item end -->
                 </div>
             </div>
@@ -716,7 +716,7 @@
             </div>
             <div class="explore__job__slider swiper swiper-data" data-swiper='
             {
-            "slidesPerView": 6.5, 
+            "slidesPerView": 6.5,
             "spaceBetween": 30,
             "loop": true,
             "speed": 1000,
@@ -741,7 +741,7 @@
                     "slidesPerView": 1.5
                 }
             }
-        
+
         }'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -842,8 +842,8 @@
                         <h2 class="fw-bold text-white"><span class="counter">1</span>M</h2>
                         <p class="h6 mb-0 fw-medium">Daily active users</p>
                     </div>
-                
-                
+
+
                     <div class="rts__single__counter text-center">
                         <h2 class="fw-bold text-white"><span class="counter">100</span>+</h2>
                         <p class="h6 mb-0 fw-medium">Job Categories</p>
@@ -853,7 +853,7 @@
         </div>
         <!-- funfact section end -->
 
-        
+
 
         <!-- testimonial section -->
         <div class="rts__section testimonial__style__three">
@@ -1024,7 +1024,7 @@
 
     <footer class="rts__section pt-80 footer__home__three">
     <div class="container">
-        <div class="rts__footer__newsletter d-flex flex-wrap flex-lg-nowrap gap-5 justify-content-md-center 
+        <div class="rts__footer__newsletter d-flex flex-wrap flex-lg-nowrap gap-5 justify-content-md-center
         justify-content-lg-between align-items-center pb-60">
             <div class="text-white text-center text-lg-start">
                 <h3 class="text-white text-center text-md-start mb-3">Subscribe To Get Our  Newsletter</h3>
@@ -1041,7 +1041,7 @@
     <div class="footer__bottom py-40 text-white">
         <div class="container">
             <div class="row">
-                <div class="footer__bottom__content d-flex flex-wrap gap-4 
+                <div class="footer__bottom__content d-flex flex-wrap gap-4
                 align-items-center justify-content-between">
                     <a href="#" class="footer__logo">
   <img src="assets/img/best work transparent.png" alt="Best Work Logo" style="width: 100px; height: auto;">
@@ -1072,7 +1072,7 @@
 </footer>
 
 
-    
+
 
 <div class="modal similar__modal fade" id="loginModal">
     <div class="modal-dialog modal-dialog-centered">
@@ -1085,47 +1085,72 @@
                     </button>
                 </div>
                 <div class="d-block has__line text-center"><p>Choose your Account Type</p></div>
-                
+
                 <div class="tab__switch flex-wrap flex-sm-nowrap nav-tab mt-30 mb-30">
                     <button class="rts__btn nav-link active" data-type="candidate"><i class="fa-light fa-user"></i>Candidate</button>
                     <button class="rts__btn nav-link" data-type="employer"><i class="rt-briefcase"></i> Employer</button>
                 </div>
-                
-                <form method="POST" action="{{ route('login') }}" class="d-flex flex-column gap-3">
-                    @csrf
-                    <input type="hidden" name="user_type" id="login_user_type" value="candidate">
-                    
-                    <div class="form-group">
-                        <label for="email" class="fw-medium text-dark mb-3">Your Email</label>
-                        <div class="position-relative">
-                            <input type="email" name="email" id="email" value="{{ old('email') }}" placeholder="Enter your email" required autofocus autocomplete="username">
-                            <i class="fa-light fa-user icon"></i>
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="password" class="fw-medium text-dark mb-3">Password</label>
-                        <div class="position-relative">
-                            <input type="password" name="password" id="password" placeholder="Enter your password" required autocomplete="current-password">
-                            <i class="fa-light fa-lock icon"></i>
-                        </div>
-                    </div>
-                    
-                    <div class="d-flex flex-wrap justify-content-between align-items-center fw-medium">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="remember" id="remember">
-                            <label class="form-check-label" for="remember">
-                                Remember me
-                            </label>
-                        </div>
-                        <a href="#" class="forgot__password text-para" data-bs-toggle="modal" data-bs-target="#forgotModal">Forgot Password?</a>
-                    </div>
-                    
-                    <div class="form-group my-3">
-                        <button class="rts__btn w-100 fill__btn">Login</button>
-                    </div>
-                </form>
-                
+
+          <form method="POST" action="{{ route('login') }}" class="d-flex flex-column gap-3">
+    @csrf
+    <input type="hidden" name="user_type" id="login_user_type" value="candidate">
+
+    <!-- Email -->
+    <div class="form-group">
+        <label for="email" class="fw-medium text-dark mb-3">Your Email</label>
+        <div class="position-relative">
+            <x-text-input id="email"
+                class="block mt-1 w-full"
+                type="email"
+                name="email"
+                :value="old('email')"
+                required
+                autofocus
+                autocomplete="username" />
+            <i class="fa-light fa-user icon"></i>
+        </div>
+        <x-input-error :messages="$errors->get('email')" class="mt-2 text-danger" />
+    </div>
+
+    <!-- Password -->
+    <div class="form-group">
+        <label for="password" class="fw-medium text-dark mb-3">Password</label>
+        <div class="position-relative">
+            <x-text-input id="password"
+                class="block mt-1 w-full"
+                type="password"
+                name="password"
+                required
+                autocomplete="current-password" />
+            <i class="fa-light fa-lock icon"></i>
+        </div>
+        <x-input-error :messages="$errors->get('password')" class="mt-2 text-danger" />
+    </div>
+
+    <!-- Remember Me + Forgot Password -->
+    <div class="d-flex flex-wrap justify-content-between align-items-center fw-medium">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="remember" id="remember">
+            <label class="form-check-label" for="remember">
+                Remember me
+            </label>
+        </div>
+        @if (Route::has('password.request'))
+            <a href="{{ route('password.request') }}" class="forgot__password text-para">
+                Forgot Password?
+            </a>
+        @endif
+    </div>
+
+    <!-- Submit -->
+    <div class="form-group my-3">
+        <x-primary-button class="rts__btn w-100 fill__btn">
+            {{ __('Login') }}
+        </x-primary-button>
+    </div>
+</form>
+
+
                 <div class="d-block has__line text-center"><p>Or</p></div>
                 <div class="d-flex gap-4 flex-wrap justify-content-center mt-20 mb-20">
                     <div class="is__social google">
@@ -1153,16 +1178,16 @@
                     </button>
                 </div>
                 <div class="d-block has__line text-center"><p>Choose your Account Type</p></div>
-                
+
                 <div class="tab__switch flex-wrap flex-sm-nowrap nav-tab mt-30 mb-30">
                     <button class="rts__btn nav-link active" data-type="candidate"><i class="fa-light fa-user"></i>Candidate</button>
                     <button class="rts__btn nav-link" data-type="employer"><i class="rt-briefcase"></i> Employer</button>
                 </div>
-                
+
                 <form method="POST" action="{{ route('register') }}" class="d-flex flex-column gap-3">
                     @csrf
                     <input type="hidden" name="user_type" id="register_user_type" value="candidate">
-                    
+
                     <div class="form-group">
                         <label for="sname" class="fw-medium text-dark mb-3">Your Name</label>
                         <div class="position-relative">
@@ -1178,7 +1203,7 @@
                             <i class="fa-sharp fa-light fa-envelope icon"></i>
                         </div>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="spassword" class="fw-medium text-dark mb-3">Password</label>
                         <div class="position-relative">
@@ -1186,7 +1211,7 @@
                             <i class="fa-light fa-lock icon"></i>
                         </div>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="password_confirmation" class="fw-medium text-dark mb-3">Confirm Password</label>
                         <div class="position-relative">
@@ -1194,12 +1219,12 @@
                             <i class="fa-light fa-lock icon"></i>
                         </div>
                     </div>
-                    
+
                     <div class="form-group my-3">
                         <button class="rts__btn w-100 fill__btn">Register</button>
                     </div>
                 </form>
-                
+
                 <div class="d-block has__line text-center"><p>Or</p></div>
                 <div class="d-flex flex-wrap justify-content-center gap-4 mt-20 mb-20">
                     <div class="is__social google">
@@ -1225,10 +1250,10 @@
                         <i class="fa-regular fa-xmark text-primary"></i>
                     </button>
                 </div>
-                
+
                 <form method="POST" action="{{ route('password.email') }}" class="d-flex flex-column gap-3">
                     @csrf
-                    
+
                     <div class="form-group">
                         <label for="fmail" class="fw-medium text-dark mb-3">Your Email</label>
                         <div class="position-relative">
@@ -1236,12 +1261,12 @@
                             <i class="fa-sharp fa-light fa-envelope icon"></i>
                         </div>
                     </div>
-                    
+
                     <div class="form-group my-3">
                         <button class="rts__btn w-100 fill__btn">Reset Password</button>
                     </div>
                 </form>
-            
+
                 <span class="d-block text-center fw-medium">Remember Your Password? <a href="#" data-bs-target="#loginModal" data-bs-toggle="modal" class="text-primary">Login</a> </span>
             </div>
         </div>
@@ -1249,21 +1274,21 @@
 </div>
 
 
-    
 
-  
+
+
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
     <div class="offcanvas-header p-0 mb-5 mt-4">
       <a href="index.html" class="offcanvas-title" id="offcanvasLabel">
         <img src="{{ asset('img/logo/header__one.svg') }}" alt="logo">
-      </a> 
+      </a>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <!-- login offcanvas -->
      <div class="mb-4 d-block d-sm-none">
       <div class="header__right__btn d-flex justify-content-center gap-3">
         <a href="#" class="small__btn no__fill__btn border-6 font-xs" aria-label="Login Button" data-bs-toggle="modal" data-bs-target="#loginModal"> <i class="rt-login"></i>Sign In</a>
-        
+
     </div>
      </div>
     <div class="offcanvas-body p-0">
@@ -1312,7 +1337,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Login modal user type switching
     const loginTabs = document.querySelectorAll('#loginModal .nav-link');
     const loginUserType = document.getElementById('login_user_type');
-    
+
     loginTabs.forEach(tab => {
         tab.addEventListener('click', function() {
             loginTabs.forEach(t => t.classList.remove('active'));
@@ -1320,11 +1345,11 @@ document.addEventListener('DOMContentLoaded', function() {
             loginUserType.value = this.getAttribute('data-type');
         });
     });
-    
+
     // Register modal user type switching
     const registerTabs = document.querySelectorAll('#signupModal .nav-link');
     const registerUserType = document.getElementById('register_user_type');
-    
+
     registerTabs.forEach(tab => {
         tab.addEventListener('click', function() {
             registerTabs.forEach(t => t.classList.remove('active'));

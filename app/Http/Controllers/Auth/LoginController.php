@@ -30,9 +30,9 @@ class LoginController extends Controller
             'password' => $request->password,
             'type' => $request->user_type
         ], $request->remember)) {
-            
+
             $request->session()->regenerate();
-            
+
             // Redirect based on user type
             return match(Auth::user()->type) {
                 'candidate' => redirect()->intended(route('candidate.dashboard')),
@@ -45,7 +45,7 @@ class LoginController extends Controller
         // If authentication failed
         return redirect()->back()
             ->withInput($request->except('password'))
-            ->with('error', 'These credentials do not match our records.');
+            ->withErrors('error', 'These credentials do not match our records.');
     }
 
     public function logout(Request $request)
@@ -53,7 +53,7 @@ class LoginController extends Controller
         Auth::logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
-        
+
         return redirect('/');
     }
 }
